@@ -12,7 +12,7 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   titl.textContent = title;
   text.textContent = description;
 
-  notif.setAttribute('style', ` top: ${posTop}px; right: ${posRight}px;`);
+  notif.setAttribute('style', `top: ${posTop}px; right: ${posRight}px;`);
   notif.append(titl, text);
   document.body.appendChild(notif);
 
